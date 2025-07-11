@@ -1,0 +1,1 @@
+export { Kankei } from "./kankei";
