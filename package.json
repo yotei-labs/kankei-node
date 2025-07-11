@@ -33,5 +33,13 @@
     "url": "https://github.com/yotei-labs/kankei-node/issues"
   },
   "homepage": "https://github.com/yotei-labs/kankei-node",
-  "packageManager": "npm@11.3.0"
+  "packageManager": "npm@11.3.0",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
 }
