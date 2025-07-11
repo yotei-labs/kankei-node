@@ -21,7 +21,7 @@ export class Kankei {
    *
    * @param secret The application secret key
    */
-  public constructor(readonly secret?: string) {
+  public constructor(private readonly secret?: string) {
     if (!secret) {
       if (typeof process !== "undefined" && process.env) {
         this.secret = process.env.KANKEI_SECRET;
