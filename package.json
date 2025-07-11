@@ -1,5 +1,5 @@
 {
-  "name": "kankei",
+  "name": "@yotei/kankei",
   "version": "0.0.1",
   "description": "Kankei Official Node.js SDK",
   "main": "./dist/index.js",
