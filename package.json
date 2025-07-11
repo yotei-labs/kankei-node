@@ -35,10 +35,14 @@
   "homepage": "https://github.com/yotei-labs/kankei-node",
   "packageManager": "npm@11.3.0",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.13",
+    "jest": "^30.0.4",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   }
