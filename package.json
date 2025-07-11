@@ -1,6 +1,6 @@
 {
   "name": "@yotei/kankei",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Kankei Official Node.js SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
