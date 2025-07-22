@@ -122,7 +122,7 @@ const config: JestConfigWithTsJest = {
   // resolver: undefined,
 
   // Automatically restore mock state and implementation before every test
-  restoreMocks: true,
+  // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
   // rootDir: undefined,
@@ -148,7 +148,7 @@ const config: JestConfigWithTsJest = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  // testEnvironment: "jest-environment-node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -163,9 +163,7 @@ const config: JestConfigWithTsJest = {
   // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-  // testPathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  testPathIgnorePatterns: ["/node_modules/", "/build/"],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
@@ -189,7 +187,7 @@ const config: JestConfigWithTsJest = {
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-  verbose: true,
+  // verbose: undefined,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],
