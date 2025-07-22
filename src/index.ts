@@ -1,1 +1,1 @@
-export { Kankei } from "./kankei";
+export { Kankei } from "./kankei.js";

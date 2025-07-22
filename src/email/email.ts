@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { ErrorResponse, RequireAtLeastOne } from "../interface";
-import { Kankei } from "../kankei";
+import { ErrorResponse, RequireAtLeastOne } from "../interface.js";
+import { Kankei } from "../kankei.js";
 
 interface CreateEmailType {
   /**

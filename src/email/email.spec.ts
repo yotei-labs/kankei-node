@@ -1,8 +1,8 @@
 import { afterEach, describe, expect, it } from "@jest/globals";
 import { enableFetchMocks } from "jest-fetch-mock";
-import { ErrorResponse } from "../interface";
-import { Kankei } from "../kankei";
-import { CreateEmailResponseSuccess, CreateEmailValues } from "./email";
+import { ErrorResponse } from "../interface.js";
+import { Kankei } from "../kankei.js";
+import { CreateEmailResponseSuccess, CreateEmailValues } from "./email.js";
 
 const appSecret =
   "kankei_YFNZCVZmEMETBmuxkKNkrZLhMUtGiqAHIdRikhWSMHaagcfsghKZoLRMlXjCnRUz";

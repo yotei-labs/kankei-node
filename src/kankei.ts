@@ -1,5 +1,5 @@
-import { Email } from "./email/email";
-import { ErrorResponse, PostOptions } from "./interface";
+import { Email } from "./email/email.js";
+import { ErrorResponse, PostOptions } from "./interface.js";
 
 type RequestResponse<T> = Promise<
   { data: T; error: null } | { data: null; error: ErrorResponse }
