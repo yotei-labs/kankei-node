@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from "@jest/globals";
+import { afterEach, describe, expect, it } from "bun:test";
 import { enableFetchMocks } from "jest-fetch-mock";
 import { ErrorResponse } from "../interface.js";
 import { Kankei } from "../kankei.js";
