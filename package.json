@@ -1,9 +1,9 @@
 {
   "name": "@yotei/kankei",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Kankei Official Node.js SDK",
   "main": "./build/src/index.js",
-  "module": "./build/src/index.mjs",
+  "module": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
   "type": "module",
   "files": [
