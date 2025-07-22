@@ -69,7 +69,7 @@ describe("Email", () => {
 
       process.env = {
         ...oldEnv,
-        KANKEI_BASE_URL: "http://invalid.com",
+        KANKEI_URL: "http://invalid.com",
       };
 
       const values: CreateEmailValues = {

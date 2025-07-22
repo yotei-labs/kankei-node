@@ -76,8 +76,7 @@ export class Kankei {
     options: RequestInit = {}
   ): RequestResponse<T> {
     try {
-      const baseUrl =
-        process.env.KANKEI_BASE_URL || "https://kankei.yotei.dev/api";
+      const baseUrl = process.env.KANKEI_URL || "https://kankei.yotei.dev/api";
       const response = await fetch(`${baseUrl}${path}`, options);
 
       if (!response.ok) {
