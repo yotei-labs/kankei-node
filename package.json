@@ -1,28 +1,15 @@
 {
   "name": "@yotei/kankei",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Kankei Official Node.js SDK",
-  "main": "./build/src/index.js",
-  "module": "./build/src/index.js",
-  "types": "./build/src/index.d.ts",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "type": "module",
   "files": [
-    "build/src/**"
+    "build/**"
   ],
   "engines": {
     "node": ">=20"
-  },
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./build/src/index.d.ts",
-        "default": "./build/src/index.js"
-      },
-      "require": {
-        "types": "./build/src/index.d.ts",
-        "default": "./build/src/index.js"
-      }
-    }
   },
   "repository": {
     "type": "git",
